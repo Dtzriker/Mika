@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "desktop-clean",
+      "description": "A clean Windows 11 desktop with basic app icons",
+      "imageUrl": "https://picsum.photos/seed/everything-desktop/1920/1080",
+      "imageHint": "windows desktop"
+    },
+    {
+      "id": "blender-ui",
+      "description": "A 3D modeling environment interface",
+      "imageUrl": "https://picsum.photos/seed/blender-ui/1920/1080",
+      "imageHint": "blender software"
+    },
+    {
+      "id": "word-processor",
+      "description": "A document editing software interface",
+      "imageUrl": "https://picsum.photos/seed/word-processor/1920/1080",
+      "imageHint": "word processor"
+    },
+    {
+      "id": "browser-window",
+      "description": "A web browser window with search results",
+      "imageUrl": "https://picsum.photos/seed/browser-ui/1920/1080",
+      "imageHint": "web browser"
+    },
+    {
+      "id": "notepad-ui",
+      "description": "A simple text editor interface",
+      "imageUrl": "https://picsum.photos/seed/notepad/1920/1080",
+      "imageHint": "text editor notepad"
+    }
+  ]
+}

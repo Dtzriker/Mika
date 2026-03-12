@@ -1,0 +1,16 @@
+
+body {
+  margin:0;
+  background:#0f0f23;
+  color:white;
+  font-family: Inter, system-ui, sans-serif;
+}
+.editor {
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+}
+.center {
+  flex:1;
+  display:flex;
+}

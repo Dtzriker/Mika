@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 20% 21%;
+    --foreground: 0 0% 98%;
+    --card: 240 20% 25%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 20% 21%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 240 75% 63%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 20% 30%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 20% 30%;
+    --muted-foreground: 240 10% 70%;
+    --accent: 150 70% 50%;
+    --accent-foreground: 240 20% 21%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 20% 35%;
+    --input: 240 20% 35%;
+    --ring: 240 75% 63%;
+    --radius: 0.75rem;
+    --sidebar-background: 240 20% 18%;
+    --sidebar-foreground: 240 10% 80%;
+    --sidebar-primary: 240 75% 63%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 20% 25%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 20% 25%;
+    --sidebar-ring: 240 75% 63%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+}
+
+.font-headline {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.glass-panel {
+  @apply bg-card/40 backdrop-blur-md border border-white/10 shadow-xl;
+}
+
+.active-glow {
+  @apply shadow-[0_0_15px_rgba(38,216,127,0.3)];
+}
